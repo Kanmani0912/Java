@@ -1,0 +1,9 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner b = new Scanner(System.in);
+      int z = b.nextInt();
+      System.out.println(((z+5)*2)-3);
+  }
+}
