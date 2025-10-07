@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner o = new Scanner(System.in); 
+      String s = o.nextLine();
+      int m1 = o.nextInt();
+      int m2 = o.nextInt();
+      int m3 = o.nextInt();
+      int m4 = o.nextInt();
+      int m5 = o.nextInt();
+      int t = m1+m2+m3+m4+m5;
+      double a = t/5.0;
+      System.out.println("Student Name: "+s);
+      System.out.println("Total Marks: "+t);
+      System.out.printf("Average Marks: %.2f\n",a);
+     // System.out.printf("%.2f\n",a);
+  }
+}
