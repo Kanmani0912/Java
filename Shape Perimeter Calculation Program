@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner (System.in);
+      int s = sc.nextInt();
+      int le = sc.nextInt();
+      int wi = sc.nextInt();
+      int r = sc.nextInt();
+      int ba1 = sc.nextInt();
+      int s1 = sc.nextInt();
+      int ba2 = sc.nextInt();
+      double ca = 2*3.14*r;
+      System.out.println(4*s);
+      System.out.println(2*(le+wi));
+      System.out.printf("%.2f\n",ca);
+      System.out.println(ba1+s1+ba2);
+  }
+}
